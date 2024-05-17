@@ -3,6 +3,12 @@
 #include <fstream>
 
 using namespace std;
+List::~List() {
+    if (arr != nullptr) {
+        delete[] arr;
+        arr = nullptr;
+    }
+}
 void List::create(MiTech* arr, int n) {
 	if (n < 1)
 		return;
