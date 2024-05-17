@@ -3,7 +3,6 @@
 #include <fstream>
 
 using namespace std;
-List list;
 void List::create(MiTech* arr, int n) {
 	if (n < 1)
 		return;
@@ -188,7 +187,7 @@ void List::edit(int id) {
 		}
 	}
 
-	list.write(arr, n);
+	write(arr, n);
 
 	delete[] arr; 
 }
