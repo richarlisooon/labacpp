@@ -137,7 +137,7 @@ void List::remove(int id) {
 
 	n--; 
 
-	list.write(arr, n);
+	write(arr, n);
 }
 void List::edit(int id) {
 	ifstream in("mt.txt");
