@@ -5,6 +5,7 @@ private:
 	int n;
 	MiTech* arr;
 public:
+	~List();
 	void create(MiTech* arr, int n);
 	void write(MiTech* arr, int n);
 	MiTech* load(int n);
